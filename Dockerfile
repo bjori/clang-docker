@@ -1,3 +1,5 @@
+# Multiple versions of clang.
+# Inspired by https://hub.docker.com/_/gcc/
 FROM buildpack-deps:jessie
 
 RUN echo 'deb http://apt.llvm.org/jessie/ llvm-toolchain-jessie main' >> /etc/apt/sources.list
